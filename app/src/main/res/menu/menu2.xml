@@ -1,0 +1,72 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_subheader2"
+        android:icon="@drawable/icongmail"
+        android:title="UTEQ">
+        <menu>
+            <item
+                android:id="@+id/icon_gmail"
+                android:icon="@drawable/icongmail"
+                android:title="Gmail" />
+
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_inbox"
+            android:icon="@drawable/iconinbox"
+            android:title="Principal"/>
+        <item
+            android:id="@+id/menu_social"
+            android:icon="@drawable/iconsocial"
+            android:title="Social"/>
+    </group>
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="Otras Opciones">
+        <menu>
+            <item
+                android:id="@+id/menu_starred"
+                android:icon="@drawable/iconstar"
+                android:title="Destacados"/>
+            <item
+                android:id="@+id/menu_snozed"
+                android:icon="@drawable/iconpospuestos"
+                android:title="Pospuestos"/>
+            <item
+                android:id="@+id/menu_important"
+                android:icon="@drawable/iconimportant"
+                android:title="Importantes"/>
+            <item
+                android:id="@+id/menu_send"
+                android:icon="@drawable/iconsend"
+                android:title="Enviados"/>
+            <item
+                android:id="@+id/menu_scheduled"
+                android:icon="@drawable/iconscheduled"
+                android:title="Programados"/>
+            <item
+                android:id="@+id/menu_drafts"
+                android:icon="@drawable/icondrafts"
+                android:title="Borradores"/>
+            <item
+                android:id="@+id/menu_allmail"
+                android:icon="@drawable/iconmail"
+                android:title="Todo el correo"/>
+            <item
+                android:id="@+id/menu_spam"
+                android:icon="@drawable/iconspam"
+                android:title="Spam"/>
+            <item
+                android:id="@+id/menu_trash"
+                android:icon="@drawable/iconstrash"
+                android:title="Papelera"/>
+        </menu>
+    </item>
+
+
+</menu>
+
